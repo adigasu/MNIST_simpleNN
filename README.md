@@ -29,9 +29,10 @@ python train.py
 The MNIST data is placed in following path: "./data/"
 
 ### TODO
-- Generalize the code
+- Generalize the code to take inputs from command line 
 - Add nesterov momentum for SGD
 - Check with Adam optimizer
+- Implementation of Convolution layer
 
 ### Reference
 - [The Softmax function and its derivative](https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/#)
