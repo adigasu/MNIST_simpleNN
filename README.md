@@ -32,3 +32,6 @@ The MNIST data is placed in following path: "./data/"
 - Generalize the code
 - Add nesterov momentum for SGD
 - Check with Adam optimizer
+
+### Reference
+- [The Softmax function and its derivative](https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/#)
