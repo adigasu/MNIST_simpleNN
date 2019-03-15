@@ -31,7 +31,7 @@ The MNIST data is placed in following path: "./data/"
 ### TODO
 - Generalize the code to take inputs from command line 
 - Add nesterov momentum for SGD
-- Check with Adam optimizer
+- Check the performance with Adam optimizer
 - Implementation of Convolution layer
 
 ### Reference
