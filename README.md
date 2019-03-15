@@ -7,7 +7,7 @@ Loss function - Categorical cross entropy loss
 
 Optimizer - Stochastic gradient descent (SGD) with intial learning rate of 0.1 and exponential decay factor 1e-8
 
-Accuracy - Average accuracy: 97.62 % (5 trail), Highest accuracy: 97.69 %
+Accuracy - Average accuracy (5 trails): 97.62 %, Highest accuracy: 97.69 %
 
 Time - It takes around 33 minutes for 30 epochs, however it convergence between 10 to 15 epochs
 
