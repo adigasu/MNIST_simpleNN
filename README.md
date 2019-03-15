@@ -1,7 +1,7 @@
 # MNIST_simpleNN
 MNIST digit classification using simple neural network (NN) using python (without using any deep learning library)
 
-Simple 3 layer fully connected NN - [256, 64, 10]
+Simple 3 layer fully connected NN - [256, 64, 10] hidden units
 
 Loss function - Categorical cross entropy loss
 
