@@ -167,12 +167,12 @@ if __name__ == '__main__':
 	img_ch = 1						# No. of channels
 	img_dim = (img_H, img_W, 1)		# Image dimension
 	batch_size = 32					# Batch size
-	n_epochs = 2					# No. of epochs
+	n_epochs = 30					# No. of epochs
 	lr = 0.1						# Initial learning rate
 	decay = 2e-8					# Learning rate decay
 
 	# Read data Train data
-	n_img = 5000
+	n_img = 50000
 	X_train = read_data('data/train-images-idx3-ubyte.gz', n_img, [img_H, img_W, img_ch])
 	Y_train = read_label('data/train-labels-idx1-ubyte.gz', n_img)
 
@@ -182,7 +182,7 @@ if __name__ == '__main__':
 	train_data = np.hstack((X_train, Y_train))
 
 	# Read data test data & Normalize it
-	t_img = 1000
+	t_img = 10000
 	X_test = read_data('data/t10k-images-idx3-ubyte.gz', t_img, [img_H, img_W, img_ch])
 	Y_test = read_label('data/t10k-labels-idx1-ubyte.gz', t_img)
 	X_test /=np.max(X_test)
